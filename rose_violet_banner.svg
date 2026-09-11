@@ -1,0 +1,78 @@
+<svg fill="none" viewBox="0 0 950 220" width="100%" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Warm rose-violet canvas gradient -->
+    <linearGradient id="canvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#1a0a1e" />
+      <stop offset="45%"  stop-color="#1e0d2a" />
+      <stop offset="100%" stop-color="#150818" />
+    </linearGradient>
+    <!-- Border: rose to violet -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#f472b6" stop-opacity="0.9" />
+      <stop offset="40%"  stop-color="#c084fc" stop-opacity="0.6" />
+      <stop offset="70%"  stop-color="#a78bfa" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0.9" />
+    </linearGradient>
+    <!-- Name gradient: warm rose to violet -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#fce7f3" />
+      <stop offset="35%"  stop-color="#fbcfe8" />
+      <stop offset="70%"  stop-color="#e9d5ff" />
+      <stop offset="100%" stop-color="#f5d0fe" />
+    </linearGradient>
+    <!-- Subtle dot pattern -->
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7c3aed" fill-opacity="0.18" />
+    </pattern>
+    <!-- Glow filter -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" result="blur" />
+    </filter>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="950" height="220" rx="18" fill="url(#canvas)" stroke="url(#borderGlow)" stroke-width="1.8" />
+  <rect width="950" height="220" rx="18" fill="url(#dots)" />
+
+  <!-- Ambient Glow Orbs -->
+  <ellipse cx="100" cy="50" rx="130" ry="90" fill="#f472b6" fill-opacity="0.13" filter="url(#softGlow)" />
+  <ellipse cx="870" cy="170" rx="140" ry="100" fill="#a78bfa" fill-opacity="0.13" filter="url(#softGlow)" />
+  <ellipse cx="480" cy="10" rx="200" ry="60" fill="#e879f9" fill-opacity="0.07" filter="url(#softGlow)" />
+
+  <!-- Top accent thin bar -->
+  <rect x="28" y="10" width="894" height="3" rx="2" fill="url(#borderGlow)" />
+
+  <!-- Eyebrow role pill -->
+  <rect x="335" y="26" width="280" height="28" rx="14" fill="#2d1040" stroke="#c084fc" stroke-width="0.9" />
+  <text x="475" y="44" text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-size="11" font-weight="700" fill="#e9d5ff" letter-spacing="1.6">
+    ✦ SENIOR FULL STACK DEVELOPER ✦
+  </text>
+
+  <!-- Name MARIA N. -->
+  <text x="475" y="102" text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-size="46" font-weight="900" fill="url(#nameGrad)" letter-spacing="4">
+    MARIA N.
+  </text>
+
+  <!-- Core JD tagline -->
+  <text x="475" y="136" text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-size="15.5" font-weight="600" fill="#f0abfc" letter-spacing="0.4">
+    React &amp; Python  •  AI Agents &amp; RAG  •  Cloud-Native Systems
+  </text>
+
+  <!-- Divider line -->
+  <line x1="150" y1="156" x2="800" y2="156" stroke="#7c3aed" stroke-width="0.7" stroke-opacity="0.5" />
+
+  <!-- Metric row -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="12" font-weight="500" fill="#d8b4fe">
+    <text x="195" y="184" text-anchor="middle">📍 Maryland, United States</text>
+    <text x="385" y="184" text-anchor="middle">⚡ 5+ Years Experience</text>
+    <text x="570" y="184" text-anchor="middle">🚀 15+ Production Apps</text>
+    <text x="755" y="184" text-anchor="middle">🛡️ 99.5% SLA Uptime</text>
+  </g>
+</svg>
