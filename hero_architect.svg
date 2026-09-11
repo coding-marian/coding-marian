@@ -1,0 +1,62 @@
+<svg fill="none" viewBox="0 0 950 210" width="100%" height="210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#040711" />
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="30%" stop-color="#e0f2fe" />
+      <stop offset="70%" stop-color="#c7d2fe" />
+      <stop offset="100%" stop-color="#fbcfe8" />
+    </linearGradient>
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.35" />
+    </pattern>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Base -->
+  <rect width="950" height="210" rx="16" fill="url(#canvas)" stroke="url(#borderGlow)" stroke-width="1.6" />
+  <rect width="950" height="210" rx="16" fill="url(#gridPattern)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="100" cy="50" r="85" fill="#38bdf8" fill-opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="850" cy="150" r="95" fill="#c084fc" fill-opacity="0.10" filter="url(#softGlow)" />
+
+  <!-- Eyebrow Pill -->
+  <rect x="345" y="20" width="260" height="26" rx="13" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8" />
+  <text x="475" y="37" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1.5">
+    ✦ SENIOR FULL STACK &amp; AI ARCHITECT ✦
+  </text>
+
+  <!-- Name Headline -->
+  <text x="475" y="88" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#heroGrad)" letter-spacing="3">
+    MARIA N.
+  </text>
+
+  <!-- Subtitle matching JD -->
+  <text x="475" y="122" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#38bdf8" letter-spacing="0.5">
+    React &amp; Next.js  •  Python &amp; FastAPI  •  Autonomous AI Agents &amp; RAG
+  </text>
+
+  <!-- Sleek Divider -->
+  <line x1="160" y1="146" x2="790" y2="146" stroke="#334155" stroke-width="0.8" stroke-opacity="0.5" />
+
+  <!-- Metric Pills Row -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">
+    <text x="210" y="176" text-anchor="middle">📍 Maryland, United States</text>
+    <text x="390" y="176" text-anchor="middle">⚡ 5+ Years Experience</text>
+    <text x="570" y="176" text-anchor="middle">🚀 15+ Production SaaS</text>
+    <text x="740" y="176" text-anchor="middle">🛡️ 99.5% Uptime SLA</text>
+  </g>
+</svg>
