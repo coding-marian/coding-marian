@@ -10,7 +10,7 @@ I combine **Python and React** to build complete, production-ready applications 
 
 ### 🧠 Tech Snapshot
 
-`mermaid
+```mermaid
 mindmap
   root((Maria N.))
     ((Languages))
@@ -56,7 +56,7 @@ mindmap
       GitHub Actions
       CI CD
       Prometheus
-`
+```
 
 ---
 
@@ -135,9 +135,9 @@ Production engineering for reliability and scale:
 
 I focus on a disciplined engineering lifecycle:
 
-`
+```
 Problem  ──▶  Architecture  ──▶  Implementation  ──▶  Optimization  ──▶  Production
-`
+```
 
 Creating software that is **fast, scalable, secure, maintainable, intelligent, and production-ready**.
 
