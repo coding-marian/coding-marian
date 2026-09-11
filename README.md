@@ -1,10 +1,12 @@
 <div align="center">
-  <img src="header_banner.svg" width="100%" alt="Maria N. - Senior Full Stack Developer" />
+  <img src="header_banner.svg" width="100%" alt="Maria N. - Senior Full Stack Developer &amp; AI Architect" />
 </div>
+
+<br/>
 
 <div align="center">
   <a href="mailto:maria.n.110595@gmail.com">
-    <img src="https://img.shields.io/badge/Email-maria.n.110595%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Direct_Contact-maria.n.110595%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://linkedin.com">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -12,48 +14,52 @@
   <a href="https://github.com/coding-marian">
     <img src="https://img.shields.io/badge/GitHub-coding--marian-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Maryland%2C%20United%20States-475569?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://img.shields.io/badge/Base-Maryland%2C_US-475569?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 </div>
 
 <br/>
 
-### 👋 Hi, I'm Maria N.
-
-I am a **Senior Full Stack Developer** with 5+ years of experience building scalable web applications, backend systems, APIs, SaaS products, and AI-powered solutions.
-
-My core strength is combining **Python and React** to build complete, production-ready applications — from responsive and intuitive frontend experiences to scalable backend services, APIs, databases, cloud infrastructure, and intelligent AI workflows. I enjoy solving complex engineering problems and turning ideas into reliable, high-performance products that solve real business problems.
+```bash
+┌── [maria@production-node] - [~/engineering-runtime]
+└─$ curl -s https://api.marian.dev/v1/profile | jq .
+{
+  "name": "Maria N.",
+  "role": "Senior Full Stack Developer | React & Python | AI Integration",
+  "core_competency": "Bridging Scalable Web Apps with Autonomous Agentic Workflows",
+  "primary_stack": ["React 19", "Next.js", "Python", "FastAPI", "OpenAI", "Claude", "LangGraph", "Docker"],
+  "production_uptime": "99.5% SLA",
+  "shipped_products": "15+ Enterprise SaaS Applications & Distributed Backends"
+}
+```
 
 ---
 
-## ⚡ What I Do
+## ⚡ Engineering Architecture & How I Build
 
-### 💻 Frontend Development
-I build modern, responsive, and scalable user interfaces using:  
-`React.js` `Next.js` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS`  
-*Focus*: Component-based architecture, reusable UI systems, state management, performance optimization, and seamless API integration.
+```mermaid
+flowchart LR
+    subgraph Frontend["💻 Modern Client Layer"]
+        UI["⚛️ React 19 / Next.js 15"] --> State["⚡ Zustand / TanStack Query"]
+        State --> Net["🌐 WebSocket & Axios"]
+    end
 
-### 🐍 Python & Backend Engineering
-Python is one of my primary backend technologies. I build robust backend systems, APIs, microservices, and automation workflows using:  
-`Python` `FastAPI` `Node.js` `Express.js` `NestJS` `REST APIs` `GraphQL`  
-*Focus*: Authentication (OAuth 2.0, JWT), webhooks, background jobs, scheduled workflows, validation, error handling, and production support.
+    subgraph Backend["🐍 Scalable Microservices"]
+        Net --> Gateway["⚡ FastAPI Gateway"]
+        Gateway --> Auth["🔐 OAuth 2.0 / JWT"]
+        Gateway --> Agent["🤖 LangGraph Multi-Agent Loop"]
+    end
 
-### 🤖 AI & Generative AI
-I bring AI from experimentation into real production applications:  
-`OpenAI API` `Anthropic Claude` `LLMs` `Generative AI` `RAG` `AI Agents` `LangChain` `LangGraph` `Embeddings` `Vector Databases` `Semantic Search` `Prompt Engineering` `Tool Calling` `Function Calling`  
-*Focus*: AI-powered assistants, knowledge-based applications, document intelligence solutions, semantic search systems, and agentic workflows.
+    subgraph AI_Layer["🧠 Autonomous Agent Runtime"]
+        Agent --> RAG["🔍 Qdrant / Vector Search"]
+        Agent --> Tools["🛠️ Dynamic Function Calling"]
+        Agent --> LLM["✨ Claude 3.5 Sonnet / GPT-4o"]
+    end
 
-### 🔍 RAG & Intelligent Search
-I build systems that allow applications to work with private and domain-specific knowledge using:  
-`Retrieval-Augmented Generation (RAG)` `Vector Search (Qdrant, Pinecone)` `Semantic Search` `Knowledge Bases` `Hybrid Reranking`  
-*The goal*: Make AI applications grounded, accurate, and relevant with zero hallucination.
-
-### 🗄️ Databases & Data
-`PostgreSQL` `MongoDB` `Redis` `MySQL` `SQL` `Snowflake` `Azure Data Lake`  
-*Focus*: Database design, data modeling, query optimization, structured data processing, and caching.
-
-### ☁️ Cloud & DevOps
-`AWS` `Docker` `Git` `GitHub Actions` `CI/CD` `Kubernetes` `Helm` `Prometheus` `Grafana`  
-*Focus*: Building systems that are reliable, maintainable, secure, observable, and scalable.
+    subgraph Data_Layer["🗄️ Persistence & Cloud"]
+        Gateway --> DB[("🐘 PostgreSQL / Redis")]
+        Gateway --> Lakehouse[("❄️ Snowflake / Synapse")]
+    end
+```
 
 ---
 
@@ -61,59 +67,56 @@ I build systems that allow applications to work with private and domain-specific
 
 <div align="center">
   <!-- Frontend -->
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React.js_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   <br/>
   <!-- Backend -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
   <br/>
   <!-- AI / GenAI -->
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Anthropic_Claude_3.5-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
   <img src="https://img.shields.io/badge/LangGraph-2563EB?style=flat-square&logo=diagram&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/RAG_&_Agents-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="RAG" />
+  <img src="https://img.shields.io/badge/RAG_&_Tool_Calling-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="RAG" />
   <br/>
   <!-- Databases & Cloud -->
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Redis_Cache-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" />
+  <img src="https://img.shields.io/badge/AWS_Cloud-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker_&_K8s-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
 </div>
 
 ---
 
-## 📈 Real Business Impact & Metrics
+## 📊 Proven Business Impact & Engineering Benchmarks
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Production%20Web%20Apps-15%2B%20Shipped-2563eb?style=for-the-badge&logo=react&logoColor=white" alt="Apps" />
-  <img src="https://img.shields.io/badge/REST%20API%20Integrations-20%2B%20Live-059669?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs" />
+  <img src="https://img.shields.io/badge/Enterprise%20Apps-15%2B%20Shipped-2563eb?style=for-the-badge&logo=react&logoColor=white" alt="Apps" />
+  <img src="https://img.shields.io/badge/API%20Integrations-20%2B%20Live-059669?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs" />
   <img src="https://img.shields.io/badge/System%20Uptime-99.5%25%20SLA-7c3aed?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Uptime" />
-  <img src="https://img.shields.io/badge/AI%20Retrieval%20Accuracy-%2B30%25%20Gain-dc2626?style=for-the-badge&logo=openai&logoColor=white" alt="Accuracy" />
+  <img src="https://img.shields.io/badge/Search%20Accuracy-%2B30%25%20Gain-dc2626?style=for-the-badge&logo=openai&logoColor=white" alt="Accuracy" />
 </div>
 
 <br/>
 
 <div align="center">
 
-| Operational Area | Impact Metric | Engineering Highlight |
+| Operational Domain | Business Impact | Key Engineering Architecture |
 | :--- | :---: | :--- |
-| **Enterprise Web Applications** | `15+ Shipped` | Scalable React, Next.js, and FastAPI platforms across production environments |
-| **API Integrations & Webhooks** | `20+ Delivered` | Robust OAuth 2.0/JWT authentication, background jobs, and error recovery logic |
-| **Business Task Automation** | `10+ Tasks` | End-to-end AI agent tool calling, function calling, and automated routing |
-| **Knowledge Retrieval & RAG** | `500+ Docs` | High-relevance vector search, semantic embeddings, and zero-hallucination pipelines |
+| **Enterprise Web Applications** | `15+ Shipped` | Scalable React, Next.js, and FastAPI platforms deployed to production |
+| **API Integrations & Webhooks** | `20+ Delivered` | Robust OAuth 2.0/JWT authentication, background jobs, and circuit-breaker error recovery |
+| **Business Task Automation** | `10+ Automated` | Autonomous agent tool calling, schema validation, and intelligent task routing |
+| **Knowledge Retrieval & RAG** | `500+ Docs` | High-relevance vector search (Qdrant), semantic embeddings, and zero hallucination |
 | **Manual Lookup Reduction** | `40% Saved` | AI assistants and intelligent document lookup cutting research overhead |
-| **Database Performance** | `35% Faster` | Query optimization, indexing, and Redis distributed caching for PostgreSQL & MongoDB |
+| **Database Query Performance** | `35% Faster` | Query optimization, indexing, and Redis distributed caching for PostgreSQL & MongoDB |
 | **Production System Reliability**| `99.5% Uptime` | Docker containerization, CI/CD automated test gates, and Prometheus monitoring |
 
 </div>
