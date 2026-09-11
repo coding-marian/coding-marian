@@ -1,122 +1,122 @@
-<div align="center">
-  <img src="banner_executive.svg" width="100%" alt="Maria N. - Senior Full Stack Developer | React &amp; Python | AI Integration" />
-</div>
+# 👋 Hi, I'm Maria N.  
+### 💻 Senior Full Stack Developer | React & Python | AI Integration  
+**📍 Maryland, United States**  
 
-<br/>
+Senior Full Stack Developer with **5+ years of experience** building scalable web applications, SaaS products, APIs, and AI-powered solutions using **React, Next.js, TypeScript, Python, FastAPI, PostgreSQL, MongoDB, AWS, and Docker**.
 
-<div align="center">
-  <a href="mailto:maria.n.110595@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Contact-maria.n.110595%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/coding-marian">
-    <img src="https://img.shields.io/badge/GitHub-coding--marian-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://img.shields.io/badge/Base-Maryland%2C_US-475569?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-</div>
-
-<br/>
-
-# 👋 Hi, I'm Maria N.
-
-### 💻 Senior Full Stack Developer | Python • React • AI • Generative AI
-
-I’m a **Senior Full Stack Developer** with **5+ years of experience** building scalable web applications, backend systems, APIs, SaaS products, and AI-powered solutions.
-
-My core strength is combining **Python** and **React** to build complete, production-ready applications — from responsive and intuitive frontend experiences to scalable backend services, APIs, databases, cloud infrastructure, and intelligent AI workflows.
-
-I enjoy solving complex engineering problems and turning ideas into reliable, high-performance products that solve real business problems.
+I combine **Python and React** to build complete, production-ready applications — from responsive and intuitive frontend interfaces to scalable backend services, distributed APIs, databases, cloud infrastructure, and intelligent AI workflows. I integrate **OpenAI, Anthropic Claude, LLMs, RAG, and AI Agents** into real-world business workflows, focused on building secure, scalable, high-performance systems with **99.5% uptime**.
 
 ---
 
-## 🚀 What I Do
+### 🧠 Tech Snapshot
 
-### ⚛️ Frontend Development
-I build modern, responsive, and scalable user interfaces using:
-> `React.js` • `Next.js` • `TypeScript` • `JavaScript` • `HTML5` • `CSS3` • `Tailwind CSS`
-
-* Focus on component-based architecture, reusable UI design systems, and responsive layouts.
-* Advanced client-side and server-side state management (TanStack Query, Zustand, React Context).
-* Frontend performance optimization, code splitting, dynamic routing, and seamless REST/GraphQL API integration.
-
-### 🐍 Python & Backend Engineering
-Python is one of my primary backend technologies:
-> `Python` • `FastAPI` • `Node.js` • `Express.js` • `NestJS` • `REST APIs` • `GraphQL`
-
-* High-throughput asynchronous backend services and sub-50ms RESTful microservices.
-* Enterprise authentication and security: OAuth 2.0, JWT, RBAC, webhooks, and rate-limiting.
-* Background job orchestration (Celery, Redis queues), scheduled pipelines, comprehensive input validation, and resilient error handling.
-
-### 🤖 AI & Generative AI
-Bringing AI from experimentation into real production applications:
-> `OpenAI` • `Anthropic Claude` • `LLMs` • `Generative AI` • `RAG` • `AI Agents` • `LangChain` • `LangGraph` • `Embeddings` • `Vector Databases` • `Semantic Search` • `Prompt Engineering` • `Tool Calling` • `Function Calling`
-
-* Built autonomous multi-agent systems with tool calling, function calling, dynamic loop execution, and intelligent supervisor routing.
-* Engineered streaming token interfaces for instant conversational response times.
-
-### 🧠 RAG & Intelligent Search
-Systems that allow applications to ground answers with private and domain-specific knowledge:
-> `Retrieval-Augmented Generation (RAG)` • `Embeddings` • `Vector Search` • `Semantic Search` • `Knowledge Bases` • `Retrieval Pipelines` • `Intelligent Document Retrieval`
-
-* Implemented Reciprocal Rank Fusion (RRF) hybrid reranking combining dense vector search (Qdrant) with lexical BM25.
-* Indexed 500+ private enterprise documents with semantic chunking, improving retrieval accuracy by **30%** and preventing hallucinations.
-
-### 🗄️ Databases & Data Engineering
-Robust data modeling, persistence, and caching:
-> `PostgreSQL` • `MongoDB` • `Redis` • `MySQL` • `SQL` • `Snowflake` • `dbt` • `PySpark`
-
-* Relational and document data modeling, query optimization, and schema migrations.
-* Distributed Redis caching, session storage, and mutex locking, reducing query response times by **35%**.
-
-### ☁️ Cloud & DevOps Infrastructure
-Production engineering for security, observability, and high availability:
-> `AWS` • `Docker` • `Kubernetes` • `Git & GitHub` • `CI/CD` • `Prometheus` • `Grafana`
-
-* Containerized microservices, multi-stage Docker builds, and zero-downtime rolling updates.
-* Automated GitHub Actions CI/CD deployment pipelines supporting production systems with **99.5% uptime**.
-
----
-
-## 🛠️ My Core Stack
-
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Frontend** | `React.js` `Next.js` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `TanStack Query` |
-| **Backend & APIs** | `Python` `FastAPI` `Node.js` `Express.js` `NestJS` `RESTful APIs` `GraphQL` `OAuth 2.0` `JWT` |
-| **AI & Generative AI** | `OpenAI API` `Anthropic Claude` `LangGraph` `LangChain` `RAG` `AI Agents` `Tool Calling` |
-| **Vector & Search** | `Qdrant` `ChromaDB` `Dense Embeddings` `Semantic Search` `RRF Hybrid Reranking` |
-| **Databases & Cache** | `PostgreSQL` `MongoDB` `Redis` `MySQL` `Snowflake` `SQLAlchemy` |
-| **Cloud & DevOps** | `AWS (EKS, S3, EC2)` `Docker` `Kubernetes` `Git` `GitHub Actions` `CI/CD` `Prometheus` |
+`mermaid
+mindmap
+  root((Maria N.))
+    ((Languages))
+      Python
+      TypeScript
+      JavaScript
+      SQL
+      HTML5
+      CSS3
+    ((Frontend))
+      React
+      Next.js
+      Tailwind CSS
+      TanStack Query
+      Zustand
+      Redux
+    ((Backend))
+      FastAPI
+      Node.js
+      Express
+      NestJS
+      REST APIs
+      GraphQL
+      Celery
+    ((AI & GenAI))
+      OpenAI
+      Anthropic Claude
+      LangGraph
+      LangChain
+      RAG Pipelines
+      Vector Search
+      Qdrant
+    ((Databases))
+      PostgreSQL
+      MongoDB
+      Redis
+      Snowflake
+      SQLAlchemy
+    ((Cloud & DevOps))
+      AWS
+      Docker
+      Kubernetes
+      GitHub Actions
+      CI CD
+      Prometheus
+`
 
 ---
 
-## 📊 Building Software With Real Impact
+### 🚀 What I Do
 
-Throughout my professional career across **FORCE CLOUD** and **Alphabet**, I have delivered measured engineering outcomes:
+#### ⚛️ Frontend Development
+I build modern, responsive, and scalable user interfaces using **React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, and Tailwind CSS**.  
+* Focus on component-based architecture, reusable UI systems, and responsive layouts.  
+* Client-side and server-side state management, frontend performance optimization, and seamless REST/GraphQL API integration.
 
-* 🚀 **15+** Production web applications and distributed backend services built and shipped.
-* 🔌 **20+** Enterprise REST API integrations delivered across third-party SaaS ecosystems.
-* 🤖 **10+** Repetitive business workflows fully automated via intelligent agent pipelines.
-* 🧠 **5+** Production AI use cases deployed with **99.5% uptime SLA**.
-* 📚 **500+** Documents indexed with semantic vector search for private enterprise intelligence.
-* 🎯 **30%** Boost in AI retrieval accuracy and relevance, eliminating hallucinations.
-* ⚡ **40%** Reduction in manual research, lookup, and triage time.
-* 🗄️ **35%** Improvement in database query performance via indexing and Redis caching.
-* 🔐 **100%** Secure authentication and authorization workflows implemented (OAuth 2.0, JWT, RBAC).
+#### 🐍 Python & Backend Engineering
+Python is my primary backend language. I build robust backend systems, APIs, microservices, and automation workflows using **Python, FastAPI, Node.js, Express.js, and NestJS**.  
+* Sub-50ms RESTful microservices, OAuth 2.0, JWT authentication, and RBAC security.  
+* Asynchronous request handling, webhooks, background tasks (Celery/Redis), rate-limiting, and error handling.
+
+#### 🤖 AI & Generative AI
+Bringing AI from experimentation into production systems:  
+* Build AI assistants, multi-agent workflows, and automated decision loops using **OpenAI, Anthropic Claude, LangGraph, and LangChain**.  
+* Advanced prompt engineering, structured JSON function calling, tool calling, and streaming token responses.
+
+#### 🧠 RAG & Intelligent Search
+Grounding AI applications in private, domain-specific knowledge:  
+* Build retrieval pipelines using **Retrieval-Augmented Generation (RAG), vector embeddings, semantic search, and knowledge bases**.  
+* Hybrid reranking (Reciprocal Rank Fusion) combining dense vector search (Qdrant) with lexical BM25 over 500+ private enterprise documents to eliminate hallucinations.
+
+#### 🗄️ Databases & Data Systems
+Data modeling, persistence, and caching:  
+* Work with **PostgreSQL, MongoDB, Redis, MySQL, SQL, and Snowflake**.  
+* Database design, query optimization, and distributed Redis caching, reducing query latency by **35%**.
+
+#### ☁️ Cloud & DevOps Infrastructure
+Production engineering for reliability and scale:  
+* Deploy with **AWS, Docker, Kubernetes, Git, GitHub Actions, and CI/CD pipelines**.  
+* Observability with Prometheus and Grafana, maintaining **99.5% uptime SLA**.
 
 ---
 
-## 💼 Professional Experience
+### 📊 Proven Impact & Key Metrics
 
-### **Senior Full Stack Developer** | **FORCE CLOUD** *(Jan 2024 – Present)*
-* Scaled data platforms and ETL/ELT pipelines across Azure Data Lake, Snowflake, and lakehouse architectures with dbt.
+* 🚀 **15+** Production web applications and backend services shipped
+* 🔌 **20+** Enterprise REST API integrations delivered
+* 🤖 **10+** Repetitive business workflows fully automated with AI agents
+* 🧠 **5+** Production AI use cases deployed with **99.5% uptime**
+* 📚 **500+** Documents enabled with semantic search and intelligent retrieval
+* 🎯 **30%** Improvement in AI retrieval accuracy and relevance
+* ⚡ **40%** Reduction in manual research and lookup time
+* 🗄️ **35%** Optimization in database query response times
+* 🔐 **Zero-Trust** authentication and security implemented across all services
+
+---
+
+### 💼 Professional Experience
+
+#### **Senior Full Stack Developer** | **FORCE CLOUD** *(Jan 2024 – Present)*
+* Scaled data platforms and ETL/ELT pipelines across Azure Data Lake, Snowflake, and lakehouse architectures.
 * Shipped 15+ production web applications and backend services with Python, TypeScript, React, and Next.js.
 * Integrated OpenAI and Anthropic Claude APIs to build AI assistants, RAG pipelines, and automated tool-calling agent workflows.
 * Supported 5+ production AI use cases with **99.5% uptime**.
 
-### **Full Stack Developer** | **Alphabet** *(Jul 2021 – Jan 2024)*
+#### **Full Stack Developer** | **Alphabet** *(Jul 2021 – Jan 2024)*
 * Developed 15+ web application features and backend microservices with FastAPI, Node.js, and React.
 * Built RAG and semantic-search capabilities across 500+ documents, improving relevance by **30%**.
 * Orchestrated 10+ AI agent workflows with tool calling, function calling, and automated routing.
@@ -124,65 +124,32 @@ Throughout my professional career across **FORCE CLOUD** and **Alphabet**, I hav
 
 ---
 
-## 🎓 Education
+### 🎓 Education
 
 **Bachelor of Science in Computer Science (BS CS)**  
 *COMSATS University, Lahore Campus (2017 – 2021)*
 
 ---
 
-## 💡 How I Think About Engineering
+### 💡 How I Think About Engineering
 
-I don't believe in building technology simply because it's possible.
+I focus on a disciplined engineering lifecycle:
 
-<div align="center">
+`
+Problem  ──▶  Architecture  ──▶  Implementation  ──▶  Optimization  ──▶  Production
+`
 
-```
-Problem  ───▶  Architecture  ───▶  Implementation  ───▶  Optimization  ───▶  Production
-```
-
-</div>
-
-Whether I'm building a React frontend, a Python/FastAPI backend, an AI agent, a RAG pipeline, or a complete full-stack platform, I aim to create software that is:
-* ⚡ **Fast**
-* 📈 **Scalable**
-* 🔐 **Secure**
-* 🧩 **Maintainable**
-* 🧠 **Intelligent**
-* 🛠️ **Production-ready**
+Creating software that is **fast, scalable, secure, maintainable, intelligent, and production-ready**.
 
 ---
 
-## 🌱 Currently Exploring
+### 📬 Connect With Me
 
-* **Agentic AI & Multi-Agent Loops** (LangGraph, Supervisor patterns, self-correcting agents)
-* **Advanced RAG Architectures** (Contextual retrieval, hybrid dense/sparse reranking)
-* **Scalable Full-Stack AI Systems** (Real-time token streaming, edge inference)
-
----
-
-## 🤝 Let's Build Something
-
-I'm always interested in interesting engineering problems, AI projects, open-source collaboration, and opportunities to build technology that actually makes an impact.
-
-If you're working on something involving **Python**, **React**, **Full Stack Development**, **Generative AI**, **RAG**, or **AI Agents**, I'd love to connect.
+- 💼 [LinkedIn](https://linkedin.com)
+- 🐙 [GitHub](https://github.com/coding-marian)
+- ✉️ **[maria.n.110595@gmail.com](mailto:maria.n.110595@gmail.com)**
+- 📍 Maryland, United States
 
 <br/>
 
-<div align="center">
-  <a href="mailto:maria.n.110595@gmail.com">
-    <img src="https://img.shields.io/badge/Email-maria.n.110595%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/coding-marian">
-    <img src="https://img.shields.io/badge/GitHub-coding--marian-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <i>🚀 Build. Ship. Scale. Make it Intelligent.</i>
-</div>
+*Thanks for visiting! ✨ Let's build something awesome together.*
