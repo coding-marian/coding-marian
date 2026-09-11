@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header_banner.svg" width="100%" alt="Maria N. - Senior Full Stack Developer &amp; AI Architect" />
+  <img src="banner_v2.svg" width="100%" alt="Maria N. - Senior Full Stack Developer &amp; AI Architect" />
 </div>
 
 <br/>
@@ -34,32 +34,19 @@
 
 ---
 
-## ⚡ Engineering Architecture & How I Build
+## ⚡ Production Architecture & Data Flow
 
-```mermaid
-flowchart LR
-    subgraph Frontend["💻 Modern Client Layer"]
-        UI["⚛️ React 19 / Next.js 15"] --> State["⚡ Zustand / TanStack Query"]
-        State --> Net["🌐 WebSocket & Axios"]
-    end
+<div align="center">
 
-    subgraph Backend["🐍 Scalable Microservices"]
-        Net --> Gateway["⚡ FastAPI Gateway"]
-        Gateway --> Auth["🔐 OAuth 2.0 / JWT"]
-        Gateway --> Agent["🤖 LangGraph Multi-Agent Loop"]
-    end
+| Layer | Primary Technologies | Architectural Responsibilities | Latency / SLA |
+| :--- | :--- | :--- | :---: |
+| **💻 Client Layer** | `React 19` `Next.js 15` `TypeScript` `Tailwind` | Component-based UI, optimistic state updates, WebSocket streams | `< 16ms 60fps` |
+| **⚡ Microservices Gateway** | `Python` `FastAPI` `Node.js` `OAuth 2.0 / JWT` | Request routing, token validation, rate-limiting, and distributed tracing | `< 25ms P99` |
+| **🤖 Autonomous AI Layer** | `LangGraph` `Claude 3.5` `OpenAI` `Tool Calling` | Dynamic multi-agent loops, supervisor delegation, and JSON function calling | `Streaming Tokens` |
+| **🔍 Semantic Knowledge** | `Qdrant` `Vector Embeddings` `Hybrid Reranking` | High-relevance context grounding across 500+ documents with zero hallucination | `< 150ms Retrieval`|
+| **🗄️ Persistence & Cloud** | `PostgreSQL` `Redis` `Snowflake` `Docker` `EKS` | Partitioned storage, distributed mutex locking, and 99.5% uptime | `99.5% SLA` |
 
-    subgraph AI_Layer["🧠 Autonomous Agent Runtime"]
-        Agent --> RAG["🔍 Qdrant / Vector Search"]
-        Agent --> Tools["🛠️ Dynamic Function Calling"]
-        Agent --> LLM["✨ Claude 3.5 Sonnet / GPT-4o"]
-    end
-
-    subgraph Data_Layer["🗄️ Persistence & Cloud"]
-        Gateway --> DB[("🐘 PostgreSQL / Redis")]
-        Gateway --> Lakehouse[("❄️ Snowflake / Synapse")]
-    end
-```
+</div>
 
 ---
 
