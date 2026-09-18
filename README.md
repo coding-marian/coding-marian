@@ -110,6 +110,14 @@ Bringing artificial intelligence from experimentation into real production appli
 
 ---
 
+## 🎓 Education
+
+**Bachelor of Science, Computer Science**
+
+COMSATS University, Lahore Campus | 2017–2021
+
+---
+
 ## 💡 How I Think About Engineering
 
 ```
